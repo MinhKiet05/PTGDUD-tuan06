@@ -11,9 +11,9 @@ function App() {
   return (
     <>
     <nav>
-      <Link to='/'>Home</Link>
-      <Link to='/about'>About</Link>
-      <Link to='/contact'>Contact</Link>
+      <Link to='/'>Home</Link> | 
+      <Link to='/about'>About</Link> | 
+      <Link to='/contact'>Contact</Link> | 
     </nav>
       <Routes>
         <Route path='/' element={<Home/>}>Home</Route>
