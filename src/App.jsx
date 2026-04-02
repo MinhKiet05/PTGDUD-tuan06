@@ -10,7 +10,7 @@ import Dashboard from './components/Dashboard'
 import Orders from './components/Orders'
 import Profile from './components/Profile'
 import Settings from './components/Settings'
-
+import Checkout from './components/Checkout'
 
 function App() {
 
@@ -32,6 +32,7 @@ function App() {
           <Route path='profile' element={<Profile></Profile>}/>
           <Route path='settings' element={<Settings></Settings>}/>
         </Route>
+        <Route path='/checkout' element={<Checkout/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </>
